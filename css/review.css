@@ -1,0 +1,17 @@
+@import url("styles.css");
+
+.bookbox-review {
+    display: flex;
+    justify-content: center;
+}
+
+.bookbox-confirm-button {
+    background-color: #708090;
+    color: #FFFF;
+    height: 30px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    background-color: #E6E6FA;
+}
+
+/* Início do Header */
+
+header {
+    background-color: #1E90FF;
+    height: 80px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+/* Fim do Header */
+
+.bookbox-container {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+}
