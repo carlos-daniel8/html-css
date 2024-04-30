@@ -4,17 +4,12 @@
     padding: 30px 0;
 }
 
-.bookbox-book {
-    background-color: #FFFFFF;
-    border-radius: 5px;
-}
-
 .bookbox-image-card {
     border-radius: 5px 5px 0 0;
     padding: 15px;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #e0e0e0;
+
 }
 
 .bookbox-image-card img{
@@ -46,22 +41,3 @@
     justify-content: center;
 }
 
-.bookbox-button-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bookbox-review-button {
-    margin: 20px 0 20px 0;
-    background-color: #708090;
-    color: #FFFFFF;
-    cursor: pointer;
-    border-radius: 5px;
-    height: 30px;
-    width: 130px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

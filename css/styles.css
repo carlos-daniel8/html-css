@@ -32,8 +32,63 @@ a:hover {
 
 /* Fim do Header */
 
+.bookbox-mb20 {
+    margin-top: 20px;
+}
+
+.bookbox-mt20 {
+    margin-top: 20px;
+}
+
 .bookbox-container {
     width: 100%;
     max-width: 950px;
     margin: 0 auto;
 }
+
+/* card-styles */
+
+.bookbox-card {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.bookbox-line-botton {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/*-------------------------------------*/
+
+/* button-styles */
+
+.bookbox-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookbox-review-button {
+    margin: 20px 0 20px 0;
+    background-color: #708090;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    width: 130px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-page-button {
+    background-color: #1E90FF;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/*-------------------------------------*/
