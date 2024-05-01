@@ -127,6 +127,7 @@ a:hover {
     font-weight: 700;
     color: #FFFFFF;
     cursor: pointer;
+    width: 90px;
 }
 
 /*-------------------------------------*/
@@ -146,6 +147,7 @@ a:hover {
 .bookbox-form h1 {
     font-size: 25px;
     color: #1E90FF;
+    margin-bottom: 10px;
 }
 
 .bookbox-login-card-form-inputs-container {
@@ -156,7 +158,7 @@ a:hover {
 
 .bookbox-input-control {
     width: 380px;
-    height: 60px;
+    height: 50px;
     padding: 15px;
     border: 1px solid #D3D3D3;
 }
@@ -166,3 +168,10 @@ a:hover {
 }
 
 /*-------------------------------------*/
+.logout {
+    font-size: 18px;
+    color: #FFFFFF;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}

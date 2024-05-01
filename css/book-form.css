@@ -1,0 +1,44 @@
+@import url("styles.css");
+
+#product-form-section {
+    padding: 25px 0;
+}
+
+.bookbox-book-form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bookbox-book-form-container input, select, textarea {
+    margin-bottom: 20px;
+}
+
+.bookbox-book-form-add-button {
+    border-radius: 5px;
+    height: 35px;
+    width: 240px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0C4DE;
+    color: #FFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.book-form-cancel-button {
+    border-radius: 5px;
+    height: 35px;
+    width: 240px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b2223afd;
+    color: #FFFF;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}

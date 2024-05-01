@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookBox</title>
+
+    <link rel="stylesheet" href="./css/book-form.css">
+</head>
+<body>
+    <header>
+        <nav class="bookbox-container">
+            <h1>BookBox</h1>
+            <div>
+                <a class="logout" href="">Sair</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="book-form-section" class="bookbox-container">
+            <div class="bookbox-book-form-container">
+                <form class="book-form-card bookbox-form">
+                    <h1>Adicionar Livro</h1>
+                    <div class="bookbox-book-form-card-form-inputs-container">
+                        <div>
+                            <input type="text" class="bookbox-input-control" placeholder="Nome" />
+                        </div>
+                        <div>
+                            <textarea class="bookbox-input-control"></textarea>
+                        </div>
+                        <div>
+                            <input type="text" class="bookbox-input-control" placeholder="Ano de Lançamento"/>
+                        </div>
+                        <div>
+                            <select class="bookbox-input-control" placeholder="Autor">
+                                <option value="">Autor</option>
+                                <option value="">Drama</option>
+                                <option value="">Religião</option>
+                                <option value="">Filosofia</option>
+                                <option value="">Distopia</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select class="bookbox-input-control" placeholder="Gênero">
+                                <option value="">Gêneros</option>
+                                <option value="">Drama</option>
+                                <option value="">Religião</option>
+                                <option value="">Filosofia</option>
+                                <option value="">Distopia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="bookbox-mt20">
+                        <button 
+                        type="submmit" 
+                        class="bookbox-book-form-add-button">
+                            Cadastrar
+                        </button>
+                        <button 
+                        type="reset" 
+                        class="book-form-cancel-button">
+                            Cancelar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
