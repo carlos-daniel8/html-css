@@ -1,0 +1,25 @@
+@import url("styles.css");
+
+#login-section {
+    padding: 25px 0;
+}
+
+.bookbox-login-container {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.bookbox-login-container button {
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E90FF;
+    color: #FFFF;
+    cursor: pointer;
+    border: none;
+}

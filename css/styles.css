@@ -111,6 +111,7 @@ a:hover {
     padding: 10px;
     border: none;
     border-radius: 5px;
+    border: 1px solid #D3D3D3;
 }
 
 .bookbox-search-bar button {
@@ -127,3 +128,41 @@ a:hover {
     color: #FFFFFF;
     cursor: pointer;
 }
+
+/*-------------------------------------*/
+
+/* form styles */
+
+.bookbox-form {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+.bookbox-form h1 {
+    font-size: 25px;
+    color: #1E90FF;
+}
+
+.bookbox-login-card-form-inputs-container {
+    display: grid;
+    grid-gap: 10px;
+    margin: 20px;
+}
+
+.bookbox-input-control {
+    width: 380px;
+    height: 60px;
+    padding: 15px;
+    border: 1px solid #D3D3D3;
+}
+
+.bookbox-input-control:focus {
+    outline: none;
+}
+
+/*-------------------------------------*/
