@@ -93,3 +93,37 @@ a:hover {
 }
 
 /*-------------------------------------*/
+
+/* search bar styles */
+
+.bookbox-search-bar input:focus {
+    outline: none;
+    border: none;
+}
+
+.bookbox-search-bar {
+    height: 50px;
+    display: flex;
+}
+
+.bookbox-search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bookbox-search-bar button {
+    width: 120px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.bookbox-search-bar button[type="submit"] {
+    background-color: #1E90FF;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+}
