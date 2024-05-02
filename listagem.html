@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookBox</title>
+
+    <link rel="stylesheet" href="./css/book-list.css">
+</head>
+<body>
+    <header>
+        <nav class="bookbox-container">
+            <h1>BookBox</h1>
+            <div>
+                <a class="logout" href="">Sair</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="book-list-section" class="bookbox-container">
+            <h1 class="bookbox-title bookbox-mb20 bookbox-mt20">Adicionar Livro</h1>
+            <form class="bookbox-search-bar">
+                <input type="text" placeholder="Nome do Livro" />
+                <button type="submit">Buscar</button>
+            </form>
+            <div>
+                <button 
+                type="submmit" 
+                class="bookbox-book-add-button bookbox-mb20"
+                >
+                    Adicionar
+                </button>
+            </div>
+
+            <table class="bookbox-table bookbox-mb20 bookbox-mt20">
+                <thead>
+                    <th></th>
+                    <th>Título</th>
+                    <th></th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img class="bookbox-book-list-image" src="img/book.png" alt="">
+                        </td>
+                        <td>O morro dos ventos uivantes</td>
+                        <td>
+                            <button class="bookbox-edit-button">Editar</button>
+                            <button class="bookbox-delete-button">Deletar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="bookbox-book-list-image" src="img/book.png" alt="">
+                        </td>
+                        <td>O morro dos ventos uivantes</td>
+                        <td>
+                            <button class="bookbox-edit-button">Editar</button>
+                            <button class="bookbox-delete-button">Deletar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="bookbox-book-list-image" src="img/book.png" alt="">
+                        </td>
+                        <td>O morro dos ventos uivantes</td>
+                        <td>
+                            <button class="bookbox-edit-button">Editar</button>
+                            <button class="bookbox-delete-button">Deletar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="bookbox-book-list-image" src="img/book.png" alt="">
+                        </td>
+                        <td>O morro dos ventos uivantes</td>
+                        <td>
+                            <button class="bookbox-edit-button">Editar</button>
+                            <button class="bookbox-delete-button">Deletar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            </div>
+            <div class="next-page-button">
+                Exibir Mais
+            </div>
+        </section>
+    </main>
+</body>
+</html>

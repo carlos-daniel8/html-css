@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #B0C4DE;
+    background-color: #A9A9A9;
     color: #FFFF;
     cursor: pointer;
     border: none;
@@ -41,4 +41,12 @@
     cursor: pointer;
     border: none;
     margin-top: 10px;
+}
+
+.bookbox-select select {
+    background-color: #b2223afd;
+}
+
+.bookbox-select option[disabled]{
+    display: none;
 }

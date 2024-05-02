@@ -1,0 +1,39 @@
+@import url("styles.css");
+
+.book-list-section {
+    padding: 20px 0;
+}
+
+.bookbox-title {
+    color: #1E90FF;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bookbox-title th {
+    padding: 0px;
+}
+
+.bookbox-book-add-button {
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 35px;
+    width: 240px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0C0C0;
+    color: #FFFF;
+    cursor: pointer;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bookbox-book-list-image {
+    width: 75px;
+    height: 75px;
+    font-size: 15px;
+    margin-left: 10px;
+}
