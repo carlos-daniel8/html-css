@@ -25,3 +25,7 @@
     padding: 15px;
     min-height: 100px;
 }
+
+.bookbox-book-catalog-card-bottom h1 {
+    color: #708090;
+}

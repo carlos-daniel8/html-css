@@ -21,6 +21,10 @@
     padding: 15px 20px;
 }
 
+.bookbox-card-content h1 {
+    color: #708090;
+}
+
 .bookbox-card-content p {
     color: #708090;
     font-family: 'Roboto', sans-serif;
